@@ -4,8 +4,8 @@ User-space shell utility for interpreting and manipulating a FAT32 file system i
 
 ## Group Members
 - Austin Kerr: amk21u@fsu.edu
-- [Teammate 2]: [fsu_login2]@fsu.edu
-- [Teammate 3]: [fsu_login3]@fsu.edu
+- Connor Cook: cjc22c@fsu.edu
+- Jackson Luther: [fsu_login3]@fsu.edu
 
 ## Division of Labor
 
@@ -19,19 +19,19 @@ User-space shell utility for interpreting and manipulating a FAT32 file system i
 
 ### Part 3: Create
 - **Responsibilities**: Implement `mkdir` and `creat` for the current working directory, including directory entry allocation, error handling when names already exist, and updating the underlying clusters.
-- **Assigned to**: [Teammate 2]
+- **Assigned to**: Jackson Luther
 
 ### Part 4: Read
 - **Responsibilities**: Implement open-file data structure and operations: `open`, `close`, `lsof`, `lseek`, and `read`, with correct offset management and permissions checks.
-- **Assigned to**: [Teammate 3]
+- **Assigned to**: Jackson Luther
 
 ### Part 5: Update
 - **Responsibilities**: Implement `write` and `mv`, including extending files when needed, updating directory entries and clusters, and enforcing that files are closed or in a valid mode.
-- **Assigned to**: [Teammate 3]
+- **Assigned to**: Connor Cook
 
 ### Part 6: Delete
 - **Responsibilities**: Implement `rm` and `rmdir`, reclaiming file data, enforcing empty-directory requirement for `rmdir`, and ensuring opened files/directories cannot be removed.
-- **Assigned to**: [Teammate 2]
+- **Assigned to**: Connor Cook
 
 ## File Listing
 ```text
@@ -112,24 +112,24 @@ YYYY-MM-DD	Created repository, base src/ and include/ layout.
 YYYY-MM-DD	Implemented FAT32 mount logic and info command.
 YYYY-MM-DD	Implemented shell loop, prompt, cd, and ls.
 
-[Teammate 2]
+Jackson Luther
 Date	Work Completed / Notes
 YYYY-MM-DD	
 YYYY-MM-DD	
 YYYY-MM-DD	
 
-[Teammate 3]
+Connor Cook
 Date	Work Completed / Notes
-YYYY-MM-DD	
-YYYY-MM-DD	
-YYYY-MM-DD	
+2025-01-12	Implemented Part 5: Added `fat32_write` for writing string data to files and `fat32_mv` for renaming/moving files.
+2025-01-12	Implemented Part 6: Added `fat32_rm` and `fat32_rmdir` to handle file and directory deletion with safety checks.
+2025-02-12	Final Project Testing: Verified all 6 parts functionality, fixed function signature mismatches in `fat32.h`, and confirmed data persistence on disk image.
 
 Meetings
 Document in-person or online meetings, their purpose, and what was discussed.
 
 Date	Attendees	Topics Discussed	Outcomes / Decisions
-YYYY-MM-DD	Austin, [Teammate 2], [Teammate 3]	Repository setup, reading project description	Agreed on division of labor for Parts 1–6.
-YYYY-MM-DD	Austin, [Teammate 2], [Teammate 3]	Integration & testing plan	Chose test images and set intermediate goals.
+YYYY-MM-DD	Austin, Jackson, Connor	Repository setup, reading project description	Agreed on division of labor for Parts 1–6.
+YYYY-MM-DD	Austin, Jackson, Connor	Integration & testing plan	Chose test images and set intermediate goals.
 
 Bugs
 Bug 1: TODO – describe any known issues with cd / ls or root handling.
