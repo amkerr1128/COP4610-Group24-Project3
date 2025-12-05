@@ -5,7 +5,7 @@ User-space shell utility for interpreting and manipulating a FAT32 file system i
 ## Group Members
 - Austin Kerr: amk21u@fsu.edu
 - Connor Cook: cjc22c@fsu.edu
-- Jackson Luther: [fsu_login3]@fsu.edu
+- Jackson Luther: jbl22h@fsu.edu
 
 ## Division of Labor
 
@@ -114,9 +114,9 @@ YYYY-MM-DD	Implemented shell loop, prompt, cd, and ls.
 
 Jackson Luther
 Date	Work Completed / Notes
-YYYY-MM-DD	
-YYYY-MM-DD	
-YYYY-MM-DD	
+2024-11-28	Implemented Part 3: mkdir and creat functions with directory entry allocation, cluster management, and duplicate name error handling.
+2024-11-29	Implemented Part 4: open, close, lsof, lseek, and read operations with file descriptor management and offset tracking.
+2024-11-30	Fixed file name extension handling bug, and created testing documentation.
 
 Connor Cook
 Date	Work Completed / Notes
