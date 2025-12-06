@@ -128,15 +128,11 @@ Meetings
 Document in-person or online meetings, their purpose, and what was discussed.
 
 Date	Attendees	Topics Discussed	Outcomes / Decisions
-YYYY-MM-DD	Austin, Jackson, Connor	Repository setup, reading project description	Agreed on division of labor for Parts 1–6.
-YYYY-MM-DD	Austin, Jackson, Connor	Integration & testing plan	Chose test images and set intermediate goals.
+2025-11-25	Austin, Jackson, Connor	Repository setup, reading project description	Agreed on division of labor for Parts 1–6.
+2025-12-01	Austin, Jackson, Connor	Integration & testing plan	Chose test images and set intermediate goals.
 
 Bugs
-Bug 1: TODO – describe any known issues with cd / ls or root handling.
-
-Bug 2: TODO – describe.
-
-Bug 3: TODO – describe.
+No known bugs
 
 Considerations
 Only standard C library functions are used to ensure compatibility with linprog.
